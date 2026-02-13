@@ -1,33 +1,94 @@
-Hirrd
-Full Stack Job Portal - Hired with React JS, Tailwind CSS, Supabase, Clerk, Shadcn UI
-This project is a Full Stack Job Portal App named "Hired," which demonstrates the key skills that companies look for today. It features authentication, job postings, applications, profile management, and more. The app provides both candidate and recruiter functionality, offering a comprehensive platform for job seekers and employers alike.
+# Hirrd – Full Stack Job Portal
 
-Key Features:
-Authentication: Users can sign in using Google or email and password authentication powered by Clerk.
-Responsive UI: The user interface is fully responsive, built with ReactJS and ShadCN UI, ensuring a modern and professional look on all devices.
-Job Postings:
-Candidates can browse, apply, and wish-list jobs.
-Recruiters can post new jobs, manage applications, and track hiring status.
-Application Tracking: Candidates can view the status of their applications, whether they are in the "applied" or "interviewing" phase.
-Resume Upload: Candidates can upload their resumes via storage buckets.
-Job Filters: Users can filter jobs based on location, company, and role, with options to save jobs for later viewing.
-Markdown Job Descriptions: Recruiters can use Markdown to format job descriptions, allowing them to add headings, bullet points, and more.
-Profile Management: Users can view and manage their profile, saved jobs, applied jobs, and account details.
-State Management: React state management and form handling are done via React Hook Form and Zod Validation.
-Real-Time Status Updates: Recruiters can update the status of applications (e.g., "interviewing"), and candidates will see these updates on their profile.
-Technologies Used:
-Frontend: ReactJS, ShadCN UI
-State Management: React Hook Form, Zod
-Authentication: Clerk
-Cloud Storage: Storage Buckets for resume uploads
-Markdown: For rich text job descriptions
-Application Flow:
-1. Candidates:
-Sign in, view job listings, and apply with resume uploads.
-Track their job application status in real time.
-Filter jobs based on various criteria (e.g., location, company).
-Save favorite jobs to a wish list.
-2. Recruiters:
-Sign in to post jobs with detailed descriptions using Markdown.
-Manage applications by updating the hiring status of candidates.
-Track posted jobs and delete or modify postings as needed.
+A full-stack Job Portal application built using **React JS, Tailwind CSS, Supabase, Clerk, and ShadCN UI**.  
+The platform provides role-based functionality for both **Candidates** and **Recruiters**, enabling job posting, applications, profile management, and real-time status tracking.
+
+---
+
+## 🚀 Key Features
+
+### 🔐 Authentication
+- Secure authentication powered by **Clerk**
+- Google Sign-In support
+- Email & Password login
+- Role-based access (Candidate / Recruiter)
+
+---
+
+### 🎨 Responsive UI
+- Built with **React JS + ShadCN UI**
+- Styled using **Tailwind CSS**
+- Fully responsive across desktop, tablet, and mobile devices
+
+---
+
+### 💼 Job Management
+
+#### 👨‍💻 Candidate Features
+- Browse available job listings
+- Apply to jobs with resume upload
+- Save jobs to wishlist
+- Track application status (Applied, Interviewing, etc.)
+- Manage profile information
+
+#### 🧑‍💼 Recruiter Features
+- Post new job openings
+- Edit or delete job postings
+- View and manage candidate applications
+- Update hiring status in real time
+- Track job listing performance
+
+---
+
+### 📂 Resume Upload
+- Secure resume storage using **Supabase Storage Buckets**
+- Resume linked directly with job applications
+
+---
+
+### 🔎 Advanced Job Filtering
+- Filter jobs by:
+  - Location
+  - Company
+  - Role
+- Save jobs for later viewing
+
+---
+
+### 📝 Markdown Support
+- Recruiters can write job descriptions using **Markdown**
+- Supports headings, bullet points, and rich text formatting
+
+---
+
+### 📊 Form Handling & Validation
+- Form management with **React Hook Form**
+- Schema validation using **Zod**
+
+---
+
+### 🔄 Real-Time Status Updates
+- Recruiters can update application status
+- Candidates see instant updates on their dashboard
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React JS
+- Tailwind CSS
+- ShadCN UI
+
+### Backend & Database
+- Supabase (PostgreSQL)
+- Supabase Storage
+
+### Authentication
+- Clerk
+
+### Form & Validation
+- React Hook Form
+- Zod
+
+---
